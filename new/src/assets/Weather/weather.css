@@ -1,0 +1,128 @@
+.frame{
+    width: 55.1%;
+    margin: 0 auto;
+    text-align: center;
+}
+.inne_frame{
+    width: 54.3%;
+    height: 300px;
+    border: 1px solid black ;
+    margin: 0 auto;
+    position: absolute;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+
+    height:  200px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.collection1{
+    
+    position: relative;
+    right: 12px;
+    top: 15px;
+    
+}
+.info_2{
+    position: relative;
+    left: 120px;
+    top: 15px;
+       
+}
+.humidity{
+    height: 90px;
+    width: 250px;
+    
+    margin: 0px 20px;
+}
+.temp{
+    height: 90px;
+    width: 250px;
+    
+    margin: 15px 20px;
+}
+.rain{
+    height: 90px;
+    width: 250px;
+
+    margin: 15px 20px;
+}
+.wind_Speed{
+    height: 90px;
+    width: 250px;
+    
+    margin: 15px 20px;
+}
+.day{
+    width: 100%;
+    text-align: center;
+    height: 301px;
+    position: relative;
+    top: 303px;
+    overflow-x: auto;
+
+}
+.frame_2{
+    display: flex;
+    justify-content: space-between;
+    width: 725px;
+}
+.scroll-container::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
+  }
+
+  .temp ,.humidity,.rain,.wind_Speed{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    
+  }
+
+  .icon_1 {
+    font-size: 44px;
+    color: #00A8E8;
+}
+
+.label_1 {
+    font-size: 34px;
+    color: #f5eded;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.temp_time, .humidity_time, .rain_time, .wind_Speed_time {
+    height: 50px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .logo h2 {
+    margin: 0;
+  }
+  
+  .text h2 {
+    margin: 0;
+  }
+  
+  .search input {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+  }
+  
